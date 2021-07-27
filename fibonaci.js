@@ -3,7 +3,7 @@ function fibonacci(x){
     if (x<1) {
         return "invalid number"
         
-    }else if (x<=2){
+     }else if (x<=2){
         return fib[x-1];
     }
      i=0
