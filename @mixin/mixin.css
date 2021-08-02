@@ -1,0 +1,33 @@
+div {
+  float: left;
+}
+
+.first {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  margin: 15px;
+}
+
+.second {
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+  margin: 15px;
+}
+
+.third {
+  width: 100px;
+  height: 100px;
+  background-color: yellow;
+  margin: 15px;
+}
+
+.box, .a1, .a2 {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  margin: 15px;
+  border-radius: 30px;
+}
+/*# sourceMappingURL=mixin.css.map */
