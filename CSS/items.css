@@ -1,0 +1,41 @@
+.container{
+    display: grid;
+    /* grid-template-columns: 40% 10% minmax(80px,240px) */
+    /* auto 20%; */
+    /* grid-template-columns: repeat(2,1fr) 2fr 200px; */
+    /* grid-template-rows: 100px 400px 200px 10%; */
+    grid-template-columns: repeat(4,200px);
+    grid-template-rows: 100px  100px 100px 100px ;
+    grid-gap: 10px;
+}
+.content{
+    background-color: cornflowerblue;
+    border: 1px solid black;
+    box-shadow: 2px 2px 2px gray;
+    border-radius: 10px;
+}
+.conten1{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    background-image: url(./cw_logo.jpeg) ;
+}
+.conten2{
+    grid-row-start: 1;
+    grid-row-end: 3;
+    grid-column-start: 4;
+    grid-column-end: 5;
+    background-color: red;
+}
+.conten3{
+    grid-column: 1/3;
+    grid-row: 2/4;
+    background-color: yellowgreen;
+}
+.conten4{
+    grid-row: 2/span 4;
+    background-color:springgreen
+}
+.conten5{
+    grid-area:3/4/ span 2 / span 1;
+    
+}
