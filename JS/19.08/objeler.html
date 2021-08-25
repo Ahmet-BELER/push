@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+
+    
+     function insan(name,surname, yaş, eyescolor) {
+         this.adı=name;
+         this.soyadı=surname;
+         this.yaş=yaş;
+         this.gözrengi=eyescolor;
+         this.adıdeğiştir=function(yeniisim){
+             this.adı=yeniisim;
+         }
+         this.dogumYili= Dogumyılıhesapla;
+     }
+
+     function Dogumyılıhesapla(){
+         return 2021-this.yaş;
+     }
+
+     var i1 =new insan("Ahmet","Beler", 29,"Kahverengi");
+     document.write(i1.adı +" "+i1.soyadı+" "+i1.gözrengi + " " + i1.dogumYili() +"<br>");
+     i1.adıdeğiştir(" Mehmet");
+     document.write(i1.adı +" "+i1.soyadı+" "+i1.gözrengi+ " " + i1.dogumYili());
+
+    </script>
+</body>
+</html>
